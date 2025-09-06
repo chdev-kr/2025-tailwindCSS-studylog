@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind 첫시간</title>
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- w, h -->
+    <div class="w-50 h-50 bg-blue-200">50 * 4px</div>
+    <div class="w-[234px] h-[234px] bg-blue-100">234 * 234</div>
+    <!-- [px, rem, $ 구체적인 값 직접 넣을 수 있다.] -->
+    <!-- border -->
+    <div
+      class="max-w-5xl bg-pink-300 w-30 h-30 border border-gray-500 border-10 rounded-md"
+    ></div>
+    <div class="bg-yellow-300 w-30 h-30 p-10 m-auto">안녕</div>
+    <!-- font-family -->
+    <h1 class="font-sans">hello</h1>
+    <h1 class="font-serif">hello</h1>
+    <h1 class="font-mono">hello</h1>
+    <!-- shadow -->
+    <div class="w-30 h-30 shadow-lg"></div>
+  </body>
+</html>
